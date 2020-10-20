@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body style="background-color: white" id="ib">
+
+
+<div style="border: 1px solid black; color: black; background-color: yellow; width: 40%; margin: auto; padding: 20px">
+	<h5 align="center">2018/2019 UTME Online result checker</h5>
+
+<p>Feedback on Assessment <strong>Total Scores: 320</strong></p>
+<span>Have you written exam yet?</span>
+<form class="form-group">
+<select id="pick">
+	<option>Yes</option>
+	<option>No</option>
+</select>
+<select id="state">
+	<option>lagos</option>
+	<option>Osun</option>
+</select>
+<button style="background-color:green" onclick=" 
+var case = document.getElementById('pick').select.option;
+var state = document.getElementById('state').select.option;
+if (case.toLowerCase().trim() == 'yes' && state.toLowerCase().trim() == 'lagos') {alert('You scored 320')}
+if (case.toLowerCase().trim() == 'yes' && state.toLowerCase().trim() != 'lagos') {alert('Check result in your state')};
+else if (case.toLowerCase().trim() == 'no' ) {alert('How do you expect to get a result when you did not write exam')}
+" >Get my result</button>
+</form>
+</div>
+
+ <!-- <div>
+ 	<p>Some of the objective class are to be established</p>
+ 	<ul id="id" style="background-color: white;">
+ 		<li>Why javascript?</li>
+ 		<li>Data types</li>
+ 		<li>The concept of variable names</li>
+ 		<li>The operators</li>
+ 	</ul>
+</div><br>
+
+<button onclick="showobj()">Highligt the objectives</button>
+
+
+
+	<input type="text" name="username" id="name">
+	<input type="text" name="username" id="pwd">
+
+
+
+<p style="color:red; font-family: corbel;" id="id">This is the man</p>
+<p>The boy is here now</p>
+
+<button type="btn" onclick="var x = document.getElementById('id').style.color; alert(x);">Press me to get content</button>
+
+		<input type="button" value="Start Quiz" name="button" onclick="var number = window.prompt('Enter a No'); alert('Number ' + number + ' is available');">
+		<button>Start</button>
+
+	
+	<p>You are welcome to <span style="color: red" id="demo">dysney land</span></p>
+
+	<input type="button" name="button" value="where i am" onclick="var v = document.getElementById('demo').innerHTML; alert(v);">
+
+	<div>
+		<img src="images/banner.jpg" width="80px" height="80px" id="property">
+		<button type="button" onclick="var w = document.getElementById('property').width, 
+		 h = document.getElementById('property').height; 
+		alert('The dimention of your image is '+ w +'x'+ h);">Get Dimension</button>
+	</div>
+
+<!-- <div>
+	<img src="images/banner.jpg" width="100px" height="100px" id="img">
+	<button onclick="document.getElementById('img').src='images/headboy.jpg';">Flip image</button>
+
+
+</div>
+ -->
+ 
+	<!--  <form>
+		<input type="text" name="tunjibello" value="tunjibello"><br>
+		<input type="password" name="tunjibello" value="tunjibello" id="tun"><br>
+		<button type="button" name="tunjibello" onclick="var pwd = document.getElementById('tun').type= 'text';">Show Password</button>
+	</form>  --> -->
+
+	<!-- <img src="images/banner.jpg" width="100px" height="100px" id="first">
+	<button type="button" onclick="document.getElementById('first').src = 'images/headboy.jpg'='images/mylogo.png';">Flip Image</button> -->
+
+
+<!-- <div style="background-color: green; color:white; height: 150px" id="ast">
+	<p>Practicing Javascript</p>
+<button onclick="document.getElementById('ast').style.backgroundColor='green'">Green</button>
+<button onclick="document.getElementById('ast').style.backgroundColor='blue'">Blue</button>
+</div> -->
+
+<!-- <h1 style="font-family: corbel; color: purple" id="sd";>You are welcome to official website</h1> -->
+
+
+<script type="text/javascript" language="javascript">
+
+// var age = prompt('enter you age');
+// var country = prompt('enter you country');
+
+// if (age < 18 && country.toLowerCase().trim() == 'nigeria') {alert('You can vote')}
+// else if (age < 18 && country.toLowerCase().trim() != 'nigeria'){alert('You cannot vote')}
+// else if (age > 18 && country.toLowerCase().trim() != 'nigeria'){alert('You can vote')}	
+
+// 	function showobj(){
+// document.getElementById('id').style.backgroundColor='yellow';
+// 	}
+
+// var gender = prompt('enter gender')
+// if(gender.toLowerCase().trim()== 'female'){
+// alert('We have shoes and bags for sale');
+// }
+// else if (gender.toLowerCase().trim()== 'male') {
+// 	alert('We have phones for sale')
+// }
+// else if (gender.toLowerCase().trim()== 'transgender') {
+// 	alert('invalid imput')
+// } 
+// else {
+// 	alert('invalid input')
+// }
+// using the switch syntax
+
+// var gender = prompt("enter your gender")
+
+// switch(gender.toLowerCase().trim()){
+// 	case: 'female':
+// 	alert ('We have bags for sale');
+// 	case: 'male':
+// 	alert ('We have phones for sale');
+// 	default: 
+// 	alert ('invalid input');
+// }
+
+
+
+
+
+// // var s = document.getElementById('sd').style.color, alert(s);
+//  // var t = prompt('enter a number');
+//  if (t > 5) {
+// 	//  alert(t + " is not available");
+//  }
+// var t =prompt('enter a color');
+// if (t == ""){
+// 	alert('you did not input anything')
+// 	document.getElementById('ib').style.backgroundColor='red'
+// }
+// else{
+// 	document.getElementById('ib').style.backgroundColor=t
+	
+// } 
+
+//  <button type="btn" name="btn" onclick="var x = prompt('Enter a number'); alert('Number '+ x + ' is available')">Start Quiz</button>
+ 
+
+</script>
+</body>
+</html>
